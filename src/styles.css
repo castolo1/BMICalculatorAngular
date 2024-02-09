@@ -1,1 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background-color: rgb(6, 6, 56);
+} 
+
+.titulo{
+    font-family: 'Sixtyfour', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.row{
+    margin-top: 20px;
+}
+
+.btn-color{
+    background-color: #FF3366;
+    border-color: #FF3366;
+    border-radius: 25px;
+    width: 100%;
+}
+
+.btn-color:hover{
+    background-color: #FF3366;
+    border-color: #FF3366;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.form-range{
+    padding: 0px 20px;
+}
+
+input[type=range]::-webkit-slider-thumb{
+    background-color: #FF3366;
+}
